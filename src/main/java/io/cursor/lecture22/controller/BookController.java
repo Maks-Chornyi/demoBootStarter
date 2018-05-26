@@ -11,8 +11,7 @@ import java.util.List;
 public class BookController {
 
     @GetMapping("/")
-    public List<Book> getBook() {
-        return Arrays.asList(new Book(1,"Harry Potter","Fantastic"));
+    public String getUnderstandingWhyYouShouldDoHardWork() {
+        return "<a href=\"https://youtu.be/8EGWEUf9Xr8\" target=\"_blank\">just press me</a>";
     }
-
 }
