@@ -1,0 +1,74 @@
+"2018-05-26 11:22:44,260 {yyyy-MM-dd HH:mm:ss} [main] INFO  i.c.lecture22.Lecture22Application - Starting Lecture22Application on maks with PID 22207 (/home/maks/IdeaProjects/lecture22/target/classes started by maks in /home/maks/IdeaProjects/lecture22)
+""2018-05-26 11:22:44,303 {yyyy-MM-dd HH:mm:ss} [main] INFO  i.c.lecture22.Lecture22Application - No active profile set, falling back to default profiles: default
+""2018-05-26 11:22:44,530 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c153a1: startup date [Sat May 26 11:22:44 EEST 2018]; root of context hierarchy
+""2018-05-26 11:22:46,769 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2018-05-26 11:22:46,819 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-05-26 11:22:46,820 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+""2018-05-26 11:22:46,842 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+""2018-05-26 11:22:47,012 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-05-26 11:22:47,013 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2482 ms
+""2018-05-26 11:22:47,227 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-05-26 11:22:47,233 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-05-26 11:22:47,234 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-05-26 11:22:47,235 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-05-26 11:22:47,236 {yyyy-MM-dd HH:mm:ss} [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-05-26 11:22:47,503 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-26 11:22:47,855 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c153a1: startup date [Sat May 26 11:22:44 EEST 2018]; root of context hierarchy
+""2018-05-26 11:22:47,981 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.util.List<io.cursor.lecture22.model.Book> io.cursor.lecture22.controller.BookController.getBook()
+""2018-05-26 11:22:47,989 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+""2018-05-26 11:22:47,990 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+""2018-05-26 11:22:48,032 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-26 11:22:48,032 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+""2018-05-26 11:22:48,295 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-05-26 11:22:48,335 {yyyy-MM-dd HH:mm:ss} [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]]
+"org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at io.cursor.lecture22.Lecture22Application.main(Lecture22Application.java:14)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+"2018-05-26 11:22:48,341 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-05-26 11:22:48,365 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2018-05-26 11:22:48,368 {yyyy-MM-dd HH:mm:ss} [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+""2018-05-26 11:22:48,370 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c153a1: startup date [Sat May 26 11:22:44 EEST 2018]; root of context hierarchy
+""2018-05-26 11:22:48,372 {yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+"
